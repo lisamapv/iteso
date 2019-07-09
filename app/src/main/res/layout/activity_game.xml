@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:weightSum="10"
+    android:background="@color/backgroundGame"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2048"
+            android:textSize="44sp"
+            android:layout_centerInParent="true"
+            android:layout_weight="2"
+            android:textColor="@color/colorAccent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/gridColor"
+            android:text="SCORE\n0"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="BEST\n0"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"
+            android:background="@color/gridColor"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    >
+
+    <sacale
+        android:fromXscale="1.0"
+        android:toXscale="1.0"
+        android:fromYscale=1.0"
+        android:toY
+
+        />
+</set>
